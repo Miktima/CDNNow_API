@@ -1,0 +1,12 @@
+{
+  "init_parameters" : {
+    "login":"",
+    "password":"",
+    "url_auth": "https://api.cdnnow.ru/api/v1/auth/login",
+    "url_status": "https://api.cdnnow.ru/api/v4/cache/##portal##/validator/runstate",
+    "url_request": "https://api.cdnnow.ru/api/v4/cache/##portal##/validity"
+   },
+   "portals" : {
+    "sputniknews.com.tr": "70f060e7-d527-43a3-bc0b-4b6b8635e572"
+   }
+}
