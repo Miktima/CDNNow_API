@@ -53,6 +53,6 @@ if objTest.get_token() != False:
         results = objTest.get_test_result(token)
         for key, values in results.items():
             for i in values:
-                print(key, " : ", i.items())
+                print(key, " : ", i)
         objTest.terminate_test(token)
 
