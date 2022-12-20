@@ -7,6 +7,8 @@
     "url_request": "https://api.cdnnow.ru/api/v4/cache/##portal##/validity"
    },
    "portals" : {
-    "sputniknews.com.tr": "70f060e7-d527-43a3-bc0b-4b6b8635e572"
+    "sputniknews.com.tr": "70f060e7-d527-43a3-bc0b-4b6b8635e572",
+    "sputniknews.vn": "6034cecf-d728-401a-91d9-ea8b5caecb32",
+    "spnfa.ir": "f12ec8cf-af70-45b5-abca-d44901c1ff44"
    }
 }
