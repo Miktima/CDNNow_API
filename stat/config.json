@@ -1,0 +1,21 @@
+{
+  "init_parameters" : {
+    "login": "",
+    "password": "",
+    "client_id": "4d977d20-5354-4689-a9e6-40312b17b801",
+    "url_stat": "https://api.cdnnow.ru/api/v1/statistic/traffic/projects",
+    "url_auth": "https://api.cdnnow.ru/api/v1/auth/login"
+   },
+   "portals" : {
+    "sputniknews.com.tr": "70f060e7-d527-43a3-bc0b-4b6b8635e572",
+    "sputniknews.vn": "6034cecf-d728-401a-91d9-ea8b5caecb32",
+    "spnfa.ir": "f12ec8cf-af70-45b5-abca-d44901c1ff44",
+    "sputniknews.lat": "f7c85eed-112a-46cd-a799-a57f0abdccec",
+    "sputnikportal.rs": "170f9845-e2cc-4676-bb04-c10e3f0eb858"
+   },
+   "date": {
+    "year": "2022",
+    "month": "12",
+    "day": ""
+   }
+}
