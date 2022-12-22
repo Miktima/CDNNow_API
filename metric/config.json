@@ -1,0 +1,32 @@
+{
+  "init_parameters" : {
+    "login": "",
+    "password": "",
+    "url": "https://api.cdnnow.ru/api/v1/statistics/cdn/aggregated",
+    "token": "92f025b2644e611a09f4a4e876bb7483c69845af",
+    "metrics": [
+      "edge_requests_count",
+      "edge_cache_status_hits",
+      "edge_status_2xx",
+      "edge_status_3xx",
+      "edge_status_4xx",
+      "edge_status_5xx",
+      "origin_requests_count",
+      "origin_status_2xx",
+      "origin_status_3xx",
+      "origin_status_4xx",
+      "origin_status_5xx",
+      "edge_cache_status_hit_ratio"
+    ],
+    "group_by": ["cname"],
+    "filter_by": [{
+      "field": "cname", 
+      "op": "in", 
+      "values": "userXXXXX"
+      }]
+   },
+  "dates": {
+    "from": ["2022", "12", "18"],
+    "to": ["2022", "12", "21"]
+   }
+   }
